@@ -357,6 +357,11 @@ h3 {
     padding: 54px 0;
   }
 
+  h1 {
+    font-size: 2.25rem;
+    line-height: 1.08;
+  }
+
   .grid,
   .intro,
   .contact,
