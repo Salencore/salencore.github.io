@@ -15,7 +15,8 @@
       </a>
       <nav class="nav">
         <a href="{{ '/' | relative_url }}#expertise">Экспертиза</a>
-        <a href="{{ '/' | relative_url }}#approach">Подход</a>
+        <a href="{{ '/' | relative_url }}#method">Метод</a>
+        <a href="{{ '/' | relative_url }}#approach">Risk engine</a>
         <a href="{{ '/' | relative_url }}#contact">Контакты</a>
         <a href="https://github.com/Salencore">GitHub</a>
       </nav>
@@ -27,5 +28,6 @@
       <span>&copy; {{ 'now' | date: '%Y' }} Salencore</span>
       <a href="https://github.com/Salencore">GitHub</a>
     </footer>
+    <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   </body>
 </html>
