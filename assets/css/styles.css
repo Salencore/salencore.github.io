@@ -139,12 +139,12 @@ code {
 }
 
 .hero {
-  min-height: min(820px, calc(100vh - 96px));
+  min-height: min(760px, calc(100vh - 96px));
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(340px, 0.85fr);
   gap: 42px;
   align-items: center;
-  padding: 74px 0 62px;
+  padding: 56px 0 46px;
 }
 
 .hero__content {
@@ -182,8 +182,8 @@ h3 {
 }
 
 h1 {
-  max-width: 900px;
-  font-size: clamp(3rem, 5.7vw, 6.25rem);
+  max-width: 760px;
+  font-size: clamp(2.8rem, 4.45vw, 5rem);
   letter-spacing: 0;
 }
 
@@ -197,8 +197,8 @@ h3 {
 }
 
 .hero__lead {
-  max-width: 780px;
-  margin-top: 26px;
+  max-width: 720px;
+  margin-top: 22px;
   color: var(--muted);
   font-size: clamp(1.08rem, 1.7vw, 1.32rem);
 }
@@ -207,7 +207,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 34px;
+  margin-top: 28px;
 }
 
 .button {
@@ -292,18 +292,18 @@ h3 {
 }
 
 .risk-panel__score {
-  margin-top: 42px;
+  margin-top: 28px;
 }
 
 .risk-panel__score strong {
-  font-size: 5.6rem;
+  font-size: 4.8rem;
   line-height: 0.8;
 }
 
 .risk-panel__grid {
   position: relative;
-  height: 180px;
-  margin-top: 24px;
+  height: 150px;
+  margin-top: 18px;
   border: 1px solid var(--line-dark);
   border-radius: 8px;
   background:
@@ -342,7 +342,7 @@ h3 {
 .risk-panel__list {
   display: grid;
   gap: 16px;
-  margin: 22px 0 0;
+  margin: 18px 0 0;
 }
 
 .risk-panel__list div {
