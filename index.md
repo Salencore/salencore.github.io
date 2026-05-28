@@ -16,6 +16,20 @@ title: Salencore
       <a class="button button--primary" href="#contact">Обсудить задачу</a>
       <a class="button button--ghost" href="#method">Как я работаю</a>
     </div>
+    <div class="hero__metrics" aria-label="Фокус VM">
+      <div>
+        <span>Signal</span>
+        <strong>KEV / EPSS / Exploit</strong>
+      </div>
+      <div>
+        <span>Context</span>
+        <strong>Asset / Owner / Exposure</strong>
+      </div>
+      <div>
+        <span>Outcome</span>
+        <strong>Verified remediation</strong>
+      </div>
+    </div>
   </div>
 
   <aside class="risk-panel reveal" aria-label="Матрица приоритизации">
@@ -50,6 +64,13 @@ title: Salencore
 </section>
 
 <main>
+  <section class="section section--statement" aria-label="Позиционирование">
+    <p class="statement reveal">
+      Уязвимости становятся управляемыми только тогда, когда у каждой есть
+      контекст, владелец, приоритет, срок и подтверждение закрытия.
+    </p>
+  </section>
+
   <section class="section intro" aria-labelledby="intro-title">
     <div class="section__header reveal">
       <p class="eyebrow">Profile</p>
