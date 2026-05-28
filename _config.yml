@@ -1,0 +1,13 @@
+title: Salencore
+description: Static Jekyll site for salencore.github.io
+url: "https://salencore.github.io"
+baseurl: ""
+lang: ru
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

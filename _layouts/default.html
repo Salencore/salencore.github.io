@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'ru' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description | escape }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Основная навигация">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
+        <span class="brand__mark">S</span>
+        <span>{{ site.title }}</span>
+      </a>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}#projects">Проекты</a>
+        <a href="https://github.com/Salencore">GitHub</a>
+      </nav>
+    </header>
+
+    {{ content }}
+
+    <footer class="site-footer">
+      <span>&copy; {{ 'now' | date: '%Y' }} Salencore</span>
+      <a href="https://github.com/Salencore/salencore.github.io">Repository</a>
+    </footer>
+  </body>
+</html>
